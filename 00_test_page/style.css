@@ -1,0 +1,28 @@
+h1{
+	font-family: monospace;
+}
+h2{
+	color: blue;
+}
+.red{
+	color: red;
+}
+.blue{
+	color: blue;
+}
+.right{
+	text-align: right;
+}
+
+#color-blue{
+	color: blue;
+}
+#color-green{
+	color: green;
+}
+#bg-teal{
+	background-color: teal;
+}
+#bg-lightgray{
+	background-color: lightgray;
+}
