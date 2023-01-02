@@ -1,0 +1,64 @@
+table{
+    user-select: none;
+    background-color:darkgray;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 2px 3px;
+    border-radius:10px;
+}
+
+table:hover{
+    box-shadow: 0px 0px 15px 1px;
+}
+
+td{
+    padding: 10px;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color:floralwhite;
+}
+
+#output-cell{
+    text-align:right;
+    background-color:azure;
+    padding: 0px;
+    padding-right: 10px;
+    font-size: 50px;
+    box-shadow: 0px 0px 7px 0px inset;
+    /*border: 5px solid black;*/
+    border-radius: 10px;
+    height: 70px;
+}
+
+.right-most-row{
+    background-color:crimson;
+}
+
+.input-btn{
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    font-size: 25px;
+}
+
+.input-btn:active{
+    background-color: green;
+    box-shadow: 0px 0px 0px 0px;
+    transition: 0.2s;
+}
+
+.input-btn:hover{
+    cursor: pointer;
+    background-color: yellow;
+}
+
+#empty-cell{
+    background-color: darkgray;
+    margin: 0px;
+    padding: 0px;
+    height: 3px;
+}
