@@ -19,4 +19,4 @@ redBox.addEventListener('mouseout', ()=>{
     console.log("Mouse Out");
 });
 
-window.location.replace('http://localhost:3000/index.html');
+// window.location.replace('http://localhost:3000/index.html');
