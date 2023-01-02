@@ -1,0 +1,35 @@
+#mainBox{
+    width: auto;
+    height: 600px;
+    border: 1px solid black;
+    /*background-color: cyan;*/
+    padding: 20px;
+    margin: 20px;
+}
+
+#switchBox{
+    width: 60px;
+    height: 20px;
+    border: 2px solid black;
+    margin-left: auto;
+    border-radius: 15px;
+    padding-left: 3px;
+    padding-top: 2.2px;
+}
+
+#switchCircle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color:black;
+    text-align: right;
+    transition-duration: 10s;
+}
+
+#text{
+    text-align:center;
+    font-family: 'Calibri', sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
